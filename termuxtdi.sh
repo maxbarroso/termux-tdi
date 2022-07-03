@@ -56,7 +56,7 @@ gem install lolcat
 echo -e "\e[1;92m Instalando o Nmap"
 
 
-pkg install nmap
+pkg install nmap -y
 
 
 echo -e "\e[1;92m Instalando o  SQLMap"
