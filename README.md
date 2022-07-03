@@ -10,6 +10,8 @@ Instalação:
 
 $termux-setup-storage
 
+$termux-change-repo (você precisa apenas selecionar as primeiras opções ao apertar ENTER duas vezes)
+
 $apt install git
 
 $git clone https://github.com/LyannaValerie/termuxtdi
