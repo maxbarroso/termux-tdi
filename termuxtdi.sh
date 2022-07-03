@@ -2,6 +2,7 @@
 #Script criado por Lyanna, na intenção de auxiliar os alunos do TDI.
 #Se você é aluno(a) do TDI mande-me um "Obrigado Lyanna!" no Discord para saber que pude ajudar-lhe!
 clear
+echo -e "\e[1;92m Me perdoe por este código estar feio. Eu sinceramente não sei estilizar isso. A intenção é apenas ajudar o aluno(a)!"
 echo -e "\e[1;92m Vamos começar atualizando o \e[1;93mTermux."
 echo -e "\e[1;92m Isso pode demorar um pouquinho."
 echo -e "\e[1;92m Recomendo tomar um cafézinho ou ler alguma coisa."
