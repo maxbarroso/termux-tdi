@@ -8,6 +8,8 @@ Não me responsabilizo pelo uso indevido das aplicações aqui instaladas!
 
 Instalação:
 
+$termux-setup-storage
+
 $apt install git
 
 $git clone https://github.com/LyannaValerie/termuxtdi
