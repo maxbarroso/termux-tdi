@@ -4,7 +4,7 @@ Script para a automatizar a instalação de pacotes necessários no uso do Termu
 Instalação:
 
 $apt install git
-$git clone ***
+$git clone https://github.com/LyannaValerie/termuxtdi
 $cd termuxtdi
 $chmod +x termuxtdi.sh
 $bash termuxtdi.sh ou ./termuxtdi.sh
