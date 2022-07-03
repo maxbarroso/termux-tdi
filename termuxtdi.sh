@@ -1,7 +1,6 @@
 #!/bin/bash
-#Por favor, não modifique o código sem antes ler o arquivo LEIA.ME
 #Script criado por Lyanna, na intenção de auxiliar os alunos do TDI.
-#Se você é aluno(a) do TDI mande-me um "Obrigado Lyanna!" no Discord!
+#Se você é aluno(a) do TDI mande-me um "Obrigado Lyanna!" no Discord para saber que pude ajudar-lhe!
 clear
 echo -e "\e[1;92m Vamos começar atualizando o \e[1;93mTermux."
 echo -e "\e[1;92m Isso pode demorar um pouquinho."
@@ -80,6 +79,12 @@ pip3 install -r requirements.txt
 cd ~
 
 
+echo -e "\e[1;92m Utilizando de um script gigante para você não ter nenhum erro sequer!"
+
+
+sed -i '13,15 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/encryption_algorithm/functionable.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
+
+
 echo -e "\e[1;92m Instalando o Metasploit 6"
 
 
@@ -87,12 +92,4 @@ source <(curl -fsSL https://raw.githubusercontent.com/efxtv/Metasploit-in-termux
 cd ~
 
 
-echo -e "\e[1;92m Utilizando de um script gigante para você não ter nenhum erro sequer!"
-
-
-sed -i '13,15 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/encryption_algorithm/functionable.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
-
-
 echo -e "\e[1;92m É isso! Parabéns você instalou todas as coisas necessárias para começar seus testes de invasão. Bem vindo(a) ao mundo Hacking!!!"
-
-
