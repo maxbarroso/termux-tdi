@@ -1,5 +1,10 @@
-# termuxtdi
-Script para a automatizar a instalação de pacotes necessários no uso do Termux para pentesting.
+# TermuxTDI - 
+Shell script simples para automatizar a instalação das aplicações mencionadas no módulo de "Hackeando com Android" no curso do "Técnicas de Invasão".
+Espero sinceramente que este código ajude você, aluno ou não, em seus primeiros passos no Pentesting.
+Muito cuidado ao usar as aplicações que você instalará!
+
+Não me responsabilizo pelo uso indevido das aplicações aqui instaladas!
+
 
 Instalação:
 
