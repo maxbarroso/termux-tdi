@@ -10,7 +10,11 @@ Instalação:
 
 $termux-setup-storage
 
-$termux-change-repo (você precisa apenas selecionar as primeiras opções ao apertar ENTER duas vezes)
+O comando acima é usado para você dar as permissões necessárias ao bom funcionamento do Termux. Basta permitir que o aplicativo tenha acesso aos arquivos!
+
+$termux-change-repo 
+
+Você precisa apenas selecionar a primeira opção ao apertar ENTER DUAS VEZES.
 
 $apt install git
 
@@ -20,4 +24,8 @@ $cd termuxtdi
 
 $chmod +x termuxtdi.sh
 
-$bash termuxtdi.sh ou ./termuxtdi.sh
+$bash termuxtdi.sh 
+
+ou 
+
+$./termuxtdi.sh
