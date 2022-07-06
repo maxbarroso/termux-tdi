@@ -130,8 +130,4 @@ clear
 
 
 echo -e "\e[1;92m É isso! Parabéns você instalou todas as coisas necessárias para começar seus testes de invasão. Bem vindo(a) ao mundo Hacking!!!"
-echo -e "\e[1;92m Irei reiniciar seu Termux agora!"
-
-
-sleep 5
-exit
+echo -e "\e[1;92m Para aplicar todas as mudanças digite 'exit'!"
