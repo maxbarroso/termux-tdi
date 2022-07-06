@@ -80,7 +80,7 @@ echo -e "\e[1;93m Instalando o Nmap..."
 
 
 sleep 4
-pkg install nmap -y | lolcat
+pkg install nmap -y
 clear
 
 
@@ -88,7 +88,7 @@ echo -e "\e[1;93m Instalando o  SQLMap..."
 
 
 sleep 4
-git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap/ | lolcat
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap/
 
 
 cd ~
@@ -104,7 +104,7 @@ echo -e "\e[1;92m AVISO: O SETOOLKIT REQUER PERMISSÃO DE SUPERUSUÁRIO (root) P
 
 sleep 4
 cd ~ 
-git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/ | lolcat
+git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
 cd setoolkit
 pip3 install -r requirements.txt
 cd ~
@@ -124,7 +124,7 @@ echo -e "\e[1;93m Instalando o Metasploit 6"
 
 
 sleep 4
-source <(curl -fsSL https://raw.githubusercontent.com/efxtv/Metasploit-in-termux/main/metasploit-6-termux.sh) | lolcat
+source <(curl -fsSL https://raw.githubusercontent.com/efxtv/Metasploit-in-termux/main/metasploit-6-termux.sh)
 cd ~
 clear
 
