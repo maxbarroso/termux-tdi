@@ -8,6 +8,9 @@ Não me responsabilizo pelo uso indevido das aplicações aqui instaladas!
 
 Instalação:
 
+<p>O procedimento aqui utilizado foi pensado usando o Termux encontrado no FDroid: https://f-droid.org/packages/com.termux/ 
+O Termux pela Google Play foi descontinuado em 2019 e, portanto, está inutilizável.</p>
+
 $termux-setup-storage
 
 O comando acima é usado para você dar as permissões necessárias ao bom funcionamento do Termux. Basta permitir que o aplicativo tenha acesso aos arquivos!
